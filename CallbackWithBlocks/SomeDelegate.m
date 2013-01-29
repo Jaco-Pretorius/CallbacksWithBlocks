@@ -27,6 +27,7 @@
 {
     // Run async process
     callback(@"Value being passed to block");
+    callback = nil;
 }
 
 @end
