@@ -17,7 +17,8 @@
 		D65D270216B74F830062BB6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D65D270116B74F830062BB6E /* Default@2x.png */; };
 		D65D270416B74F830062BB6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D65D270316B74F830062BB6E /* Default-568h@2x.png */; };
 		D65D270716B74F830062BB6E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65D270516B74F830062BB6E /* MainStoryboard.storyboard */; };
-		D65D270A16B74F830062BB6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65D270916B74F830062BB6E /* ViewController.m */; };
+		D65D270A16B74F830062BB6E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65D270916B74F830062BB6E /* MainViewController.m */; };
+		D65D271616B7532C0062BB6E /* SomeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D65D271516B7532C0062BB6E /* SomeDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,10 @@
 		D65D270116B74F830062BB6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D65D270316B74F830062BB6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D65D270616B74F830062BB6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D65D270816B74F830062BB6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D65D270916B74F830062BB6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D65D270816B74F830062BB6E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D65D270916B74F830062BB6E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D65D271416B7532C0062BB6E /* SomeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeDelegate.h; sourceTree = "<group>"; };
+		D65D271516B7532C0062BB6E /* SomeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +89,11 @@
 				D65D26FC16B74F830062BB6E /* AppDelegate.h */,
 				D65D26FD16B74F830062BB6E /* AppDelegate.m */,
 				D65D270516B74F830062BB6E /* MainStoryboard.storyboard */,
-				D65D270816B74F830062BB6E /* ViewController.h */,
-				D65D270916B74F830062BB6E /* ViewController.m */,
+				D65D270816B74F830062BB6E /* MainViewController.h */,
+				D65D270916B74F830062BB6E /* MainViewController.m */,
 				D65D26F416B74F830062BB6E /* Supporting Files */,
+				D65D271416B7532C0062BB6E /* SomeDelegate.h */,
+				D65D271516B7532C0062BB6E /* SomeDelegate.m */,
 			);
 			path = CallbackWithBlocks;
 			sourceTree = "<group>";
@@ -175,7 +180,8 @@
 			files = (
 				D65D26FA16B74F830062BB6E /* main.m in Sources */,
 				D65D26FE16B74F830062BB6E /* AppDelegate.m in Sources */,
-				D65D270A16B74F830062BB6E /* ViewController.m in Sources */,
+				D65D270A16B74F830062BB6E /* MainViewController.m in Sources */,
+				D65D271616B7532C0062BB6E /* SomeDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				D65D270F16B74F830062BB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
